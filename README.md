@@ -65,14 +65,14 @@ The REST API has the following endpoint:
 
         ros2 run rn1 rn1_node
 
-ROS2 Node 2 (RN2):
+    ROS2 Node 2 (RN2):
 
     Hosts a ROS action server to receive actions from RN1.
     Prints received travel details.
 
-Run RN2:
-
-    ros2 run rn2 rn2_node
+    Run RN2:
+    
+        ros2 run rn2 rn2_node
 
 5. Test the System
 
