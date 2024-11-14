@@ -1,0 +1,9 @@
+# Use the ROS2 base image
+FROM osrf/ros:jazzy-desktop-full
+
+# Copy only RN1 package
+COPY ros2_ws/src/rn2 /ros2_ws/src/rn2
+
+# Build the RN1 package
+RUN /bin/bash -c "source /opt/ros/jazzy/setup.bash && cd /ros2_ws && colcon build --packages-select rn2"
+

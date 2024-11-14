@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000710] (rn1) JobQueued: {'identifier': 'rn1', 'dependencies': OrderedDict()}
+[0.000795] (rn1) JobStarted: {'identifier': 'rn1'}
+[0.099686] (-) TimerEvent: {}
+[0.200144] (-) TimerEvent: {}
+[0.300543] (-) TimerEvent: {}
+[0.401038] (-) TimerEvent: {}
+[0.501712] (-) TimerEvent: {}
+[0.602234] (-) TimerEvent: {}
+[0.702670] (-) TimerEvent: {}
+[0.803102] (-) TimerEvent: {}
+[0.858079] (rn1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rn1', 'build', '--build-base', '/home/deepak/Documents/ros2_ws/build/rn1/build', 'install', '--record', '/home/deepak/Documents/ros2_ws/build/rn1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/deepak/Documents/ros2_ws/src/rn1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2712-0-hemanth-ThinkPad-T14s-Gen-3_TIME709274', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'deepak', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/deepak', 'OLDPWD': '/home/deepak/Documents/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(rest) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'MANAGERPID': '2434', 'SYSTEMD_EXEC_PID': '2712', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6651', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'deepak', 'JOURNAL_STREAM': '8:14063', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'deepak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/deepak/Documents/project/rest/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hemanth-ThinkPad-T14s-Gen-3:@/tmp/.ICE-unix/2668,unix/hemanth-ThinkPad-T14s-Gen-3:/tmp/.ICE-unix/2668', 'INVOCATION_ID': '8f6fff6b649a423eaa10212ec0ef4125', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(rest)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.JNB5W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f1a00839-3d4d-4f71-8db9-e8a912531310', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/deepak/Documents/project/rest', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/deepak/Documents/ros2_ws/build/rn1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/deepak/Documents/ros2_ws/build/rn1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.903321] (-) TimerEvent: {}
+[1.003788] (-) TimerEvent: {}
+[1.065913] (rn1) StdoutLine: {'line': b'running egg_info\n'}
+[1.066152] (rn1) StdoutLine: {'line': b'creating ../../build/rn1/rn1.egg-info\n'}
+[1.074004] (rn1) StdoutLine: {'line': b'writing ../../build/rn1/rn1.egg-info/PKG-INFO\n'}
+[1.074340] (rn1) StdoutLine: {'line': b'writing dependency_links to ../../build/rn1/rn1.egg-info/dependency_links.txt\n'}
+[1.074449] (rn1) StdoutLine: {'line': b'writing entry points to ../../build/rn1/rn1.egg-info/entry_points.txt\n'}
+[1.074527] (rn1) StdoutLine: {'line': b'writing requirements to ../../build/rn1/rn1.egg-info/requires.txt\n'}
+[1.074598] (rn1) StdoutLine: {'line': b'writing top-level names to ../../build/rn1/rn1.egg-info/top_level.txt\n'}
+[1.074667] (rn1) StdoutLine: {'line': b"writing manifest file '../../build/rn1/rn1.egg-info/SOURCES.txt'\n"}
+[1.090551] (rn1) StdoutLine: {'line': b"reading manifest file '../../build/rn1/rn1.egg-info/SOURCES.txt'\n"}
+[1.090884] (rn1) StdoutLine: {'line': b"writing manifest file '../../build/rn1/rn1.egg-info/SOURCES.txt'\n"}
+[1.090990] (rn1) StdoutLine: {'line': b'running build\n'}
+[1.091075] (rn1) StdoutLine: {'line': b'running build_py\n'}
+[1.091223] (rn1) StdoutLine: {'line': b'creating /home/deepak/Documents/ros2_ws/build/rn1/build\n'}
+[1.091340] (rn1) StdoutLine: {'line': b'creating /home/deepak/Documents/ros2_ws/build/rn1/build/lib\n'}
+[1.091418] (rn1) StdoutLine: {'line': b'creating /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1\n'}
+[1.091490] (rn1) StdoutLine: {'line': b'copying rn1/rn1_node.py -> /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1\n'}
+[1.091560] (rn1) StdoutLine: {'line': b'copying rn1/__init__.py -> /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1\n'}
+[1.091630] (rn1) StdoutLine: {'line': b'running install\n'}
+[1.094836] (rn1) StdoutLine: {'line': b'running install_lib\n'}
+[1.103060] (rn1) StdoutLine: {'line': b'creating /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1\n'}
+[1.103243] (rn1) StdoutLine: {'line': b'copying /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1/rn1_node.py -> /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1\n'}
+[1.103336] (rn1) StdoutLine: {'line': b'copying /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1/__init__.py -> /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1\n'}
+[1.103440] (rn1) StdoutLine: {'line': b'byte-compiling /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1/rn1_node.py to rn1_node.cpython-312.pyc\n'}
+[1.103808] (rn1) StdoutLine: {'line': b'byte-compiling /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1/__init__.py to __init__.cpython-312.pyc\n'}
+[1.103880] (-) TimerEvent: {}
+[1.104153] (rn1) StdoutLine: {'line': b'running install_data\n'}
+[1.104266] (rn1) StdoutLine: {'line': b'creating /home/deepak/Documents/ros2_ws/install/rn1/share/ament_index\n'}
+[1.104356] (rn1) StdoutLine: {'line': b'creating /home/deepak/Documents/ros2_ws/install/rn1/share/ament_index/resource_index\n'}
+[1.104433] (rn1) StdoutLine: {'line': b'creating /home/deepak/Documents/ros2_ws/install/rn1/share/ament_index/resource_index/packages\n'}
+[1.104506] (rn1) StdoutLine: {'line': b'copying resource/rn1 -> /home/deepak/Documents/ros2_ws/install/rn1/share/ament_index/resource_index/packages\n'}
+[1.104581] (rn1) StdoutLine: {'line': b'copying package.xml -> /home/deepak/Documents/ros2_ws/install/rn1/share/rn1\n'}
+[1.104701] (rn1) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.115686] (rn1) StdoutLine: {'line': b'Copying ../../build/rn1/rn1.egg-info to /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1-0.0.0-py3.12.egg-info\n'}
+[1.116401] (rn1) StdoutLine: {'line': b'running install_scripts\n'}
+[1.204051] (-) TimerEvent: {}
+[1.237738] (rn1) StdoutLine: {'line': b'Installing rn1_node script to /home/deepak/Documents/ros2_ws/install/rn1/lib/rn1\n'}
+[1.238362] (rn1) StdoutLine: {'line': b"writing list of installed files to '/home/deepak/Documents/ros2_ws/build/rn1/install.log'\n"}
+[1.270200] (rn1) CommandEnded: {'returncode': 0}
+[1.285744] (rn1) JobEnded: {'identifier': 'rn1', 'rc': 0}
+[1.288405] (-) EventReactorShutdown: {}

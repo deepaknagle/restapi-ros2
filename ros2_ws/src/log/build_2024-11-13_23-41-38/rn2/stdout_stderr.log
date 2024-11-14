@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/rn2/rn2.egg-info
+writing ../build/rn2/rn2.egg-info/PKG-INFO
+writing dependency_links to ../build/rn2/rn2.egg-info/dependency_links.txt
+writing entry points to ../build/rn2/rn2.egg-info/entry_points.txt
+writing requirements to ../build/rn2/rn2.egg-info/requires.txt
+writing top-level names to ../build/rn2/rn2.egg-info/top_level.txt
+writing manifest file '../build/rn2/rn2.egg-info/SOURCES.txt'
+reading manifest file '../build/rn2/rn2.egg-info/SOURCES.txt'
+writing manifest file '../build/rn2/rn2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deepak/Documents/ros2_ws/src/build/rn2/build
+creating /home/deepak/Documents/ros2_ws/src/build/rn2/build/lib
+creating /home/deepak/Documents/ros2_ws/src/build/rn2/build/lib/rn2
+copying rn2/rn2_node.py -> /home/deepak/Documents/ros2_ws/src/build/rn2/build/lib/rn2
+copying rn2/__init__.py -> /home/deepak/Documents/ros2_ws/src/build/rn2/build/lib/rn2
+running install
+running install_lib
+creating /home/deepak/Documents/ros2_ws/src/install/rn2/lib/python3.12/site-packages/rn2
+copying /home/deepak/Documents/ros2_ws/src/build/rn2/build/lib/rn2/rn2_node.py -> /home/deepak/Documents/ros2_ws/src/install/rn2/lib/python3.12/site-packages/rn2
+copying /home/deepak/Documents/ros2_ws/src/build/rn2/build/lib/rn2/__init__.py -> /home/deepak/Documents/ros2_ws/src/install/rn2/lib/python3.12/site-packages/rn2
+byte-compiling /home/deepak/Documents/ros2_ws/src/install/rn2/lib/python3.12/site-packages/rn2/rn2_node.py to rn2_node.cpython-312.pyc
+byte-compiling /home/deepak/Documents/ros2_ws/src/install/rn2/lib/python3.12/site-packages/rn2/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/deepak/Documents/ros2_ws/src/install/rn2/share/ament_index
+creating /home/deepak/Documents/ros2_ws/src/install/rn2/share/ament_index/resource_index
+creating /home/deepak/Documents/ros2_ws/src/install/rn2/share/ament_index/resource_index/packages
+copying resource/rn2 -> /home/deepak/Documents/ros2_ws/src/install/rn2/share/ament_index/resource_index/packages
+copying package.xml -> /home/deepak/Documents/ros2_ws/src/install/rn2/share/rn2
+running install_egg_info
+Copying ../build/rn2/rn2.egg-info to /home/deepak/Documents/ros2_ws/src/install/rn2/lib/python3.12/site-packages/rn2-0.0.0-py3.12.egg-info
+running install_scripts
+Installing rn2_node script to /home/deepak/Documents/ros2_ws/src/install/rn2/lib/rn2
+writing list of installed files to '/home/deepak/Documents/ros2_ws/src/build/rn2/install.log'

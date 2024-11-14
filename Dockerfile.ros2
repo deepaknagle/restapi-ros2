@@ -1,0 +1,19 @@
+# Use the official ROS2 image
+FROM ros:jazzy
+
+# Update and install necessary packages
+RUN apt-get update && apt-get install -y \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+RUN pip3 install --no-cache-dir --break-system-packages requests
+
+# Copy ROS2 workspace
+COPY ros2_ws /ros2_ws
+
+# Build the workspace
+RUN /bin/bash -c "source /opt/ros/jazzy/setup.bash && cd /ros2_ws && colcon build"
+
+# Source the setup script
+RUN echo "source /ros2_ws/install/setup.bash" >> ~/.bashrc

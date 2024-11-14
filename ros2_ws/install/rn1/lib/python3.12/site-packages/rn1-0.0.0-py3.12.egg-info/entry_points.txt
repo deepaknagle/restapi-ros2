@@ -1,0 +1,2 @@
+[console_scripts]
+rn1_node = rn1.rn1_node:main

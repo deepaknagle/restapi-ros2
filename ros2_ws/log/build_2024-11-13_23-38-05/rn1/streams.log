@@ -1,0 +1,37 @@
+[0.859s] Invoking command in '/home/deepak/Documents/ros2_ws/src/rn1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(rest) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/deepak/Documents/ros2_ws/build/rn1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rest) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rn1 build --build-base /home/deepak/Documents/ros2_ws/build/rn1/build install --record /home/deepak/Documents/ros2_ws/build/rn1/install.log --single-version-externally-managed install_data
+[1.065s] running egg_info
+[1.065s] creating ../../build/rn1/rn1.egg-info
+[1.073s] writing ../../build/rn1/rn1.egg-info/PKG-INFO
+[1.074s] writing dependency_links to ../../build/rn1/rn1.egg-info/dependency_links.txt
+[1.074s] writing entry points to ../../build/rn1/rn1.egg-info/entry_points.txt
+[1.074s] writing requirements to ../../build/rn1/rn1.egg-info/requires.txt
+[1.074s] writing top-level names to ../../build/rn1/rn1.egg-info/top_level.txt
+[1.074s] writing manifest file '../../build/rn1/rn1.egg-info/SOURCES.txt'
+[1.090s] reading manifest file '../../build/rn1/rn1.egg-info/SOURCES.txt'
+[1.090s] writing manifest file '../../build/rn1/rn1.egg-info/SOURCES.txt'
+[1.090s] running build
+[1.090s] running build_py
+[1.090s] creating /home/deepak/Documents/ros2_ws/build/rn1/build
+[1.091s] creating /home/deepak/Documents/ros2_ws/build/rn1/build/lib
+[1.091s] creating /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1
+[1.091s] copying rn1/rn1_node.py -> /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1
+[1.091s] copying rn1/__init__.py -> /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1
+[1.091s] running install
+[1.094s] running install_lib
+[1.102s] creating /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1
+[1.102s] copying /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1/rn1_node.py -> /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1
+[1.103s] copying /home/deepak/Documents/ros2_ws/build/rn1/build/lib/rn1/__init__.py -> /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1
+[1.103s] byte-compiling /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1/rn1_node.py to rn1_node.cpython-312.pyc
+[1.103s] byte-compiling /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1/__init__.py to __init__.cpython-312.pyc
+[1.103s] running install_data
+[1.103s] creating /home/deepak/Documents/ros2_ws/install/rn1/share/ament_index
+[1.104s] creating /home/deepak/Documents/ros2_ws/install/rn1/share/ament_index/resource_index
+[1.104s] creating /home/deepak/Documents/ros2_ws/install/rn1/share/ament_index/resource_index/packages
+[1.104s] copying resource/rn1 -> /home/deepak/Documents/ros2_ws/install/rn1/share/ament_index/resource_index/packages
+[1.104s] copying package.xml -> /home/deepak/Documents/ros2_ws/install/rn1/share/rn1
+[1.104s] running install_egg_info
+[1.115s] Copying ../../build/rn1/rn1.egg-info to /home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages/rn1-0.0.0-py3.12.egg-info
+[1.116s] running install_scripts
+[1.237s] Installing rn1_node script to /home/deepak/Documents/ros2_ws/install/rn1/lib/rn1
+[1.238s] writing list of installed files to '/home/deepak/Documents/ros2_ws/build/rn1/install.log'
+[1.270s] Invoked command in '/home/deepak/Documents/ros2_ws/src/rn1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(rest) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/deepak/Documents/ros2_ws/build/rn1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/Documents/ros2_ws/install/rn1/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rest) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rn1 build --build-base /home/deepak/Documents/ros2_ws/build/rn1/build install --record /home/deepak/Documents/ros2_ws/build/rn1/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rn1/rn1.egg-info/PKG-INFO
+../../build/rn1/rn1.egg-info/SOURCES.txt
+../../build/rn1/rn1.egg-info/dependency_links.txt
+../../build/rn1/rn1.egg-info/entry_points.txt
+../../build/rn1/rn1.egg-info/requires.txt
+../../build/rn1/rn1.egg-info/top_level.txt
+../../build/rn1/rn1.egg-info/zip-safe
+resource/rn1
+rn1/__init__.py
+rn1/rn1_node.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
