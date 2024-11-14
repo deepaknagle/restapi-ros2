@@ -78,18 +78,19 @@ Run RN2:
 
     Submit a Travel: Use the following curl command to post a travel to the REST API.
 
-curl -X POST "http://localhost:8000/travel" \
-    -H "Content-Type: application/json" \
-    -d '{
-         "travel_id": 2,
-         "travel_name": "summer 2024",
-         "parameters": {
-             "target": "Los Angeles",
-             "duration": "3 days"
-         }
-     }'
+        curl -X POST "http://localhost:8000/travel" \
+            -H "Content-Type: application/json" \
+            -d '{
+                 "travel_id": 2,
+                 "travel_name": "summer 2024",
+                 "parameters": {
+                     "target": "Los Angeles",
+                     "duration": "3 days"
+                 }
+             }'
 
 Observe Outputs:
 
     RN1 should retrieve this travel data and send it to RN2 as a ROS2 action.
+
     RN2 should print a message confirming it received the action.
