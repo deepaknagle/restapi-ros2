@@ -1,5 +1,5 @@
 # Use the official ROS2 image
-FROM ros:jazzy
+FROM osrf/ros:jazzy-desktop-full
 
 # Update and install necessary packages
 RUN apt-get update && apt-get install -y \
