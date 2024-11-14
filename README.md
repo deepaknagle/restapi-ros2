@@ -94,3 +94,59 @@ Observe Outputs:
     RN1 should retrieve this travel data and send it to RN2 as a ROS2 action.
 
     RN2 should print a message confirming it received the action.
+
+
+Docker Instructions
+
+To containerize the project, use the following Dockerfiles to build and run each part of the system.
+Building Docker Images
+
+Run the following commands to build the Docker images for each component:
+    
+    docker build -t rn1:latest -f Dockerfile.rn1 .
+    docker build -t rn2:latest -f Dockerfile.rn2 .
+    docker build -t ros2:latest -f Dockerfile.ros2 .
+    docker build -t main:latest -f Dockerfile .
+
+
+Run each container in the specified order to ensure correct functionality:
+
+Run the rn1 Container:
+
+    docker run -d --name rn1 rn1:latest
+
+Run the rn2 Container After rn1:
+
+    docker run -d --name rn2 --link rn1 rn2:latest
+
+Run the ros2 Container After rn2:
+
+    docker run -d --name ros2 --link rn2 ros2:latest
+
+Run the main Container After ros2:
+
+    docker run -d --name main --link ros2 main:latest
+
+Each container should now be running in the correct order.
+Accessing and Managing Containers
+
+View Logs: Use the following command to view logs for each container:
+
+    docker logs -f <container_name>
+
+Attach to a Container: Use the following command to open an interactive shell in a container:
+
+    docker exec -it <container_name> /bin/bash
+
+Replace <container_name> with rn1, rn2, ros2, or main.
+
+Stopping and Removing Containers
+
+To stop and remove all containers, use:
+
+    docker stop main ros2 rn2 rn1
+    docker rm main ros2 rn2 rn1
+
+Additional Notes
+
+    If needed, adjust any file paths or commands in each Dockerfile according to your specific project structure.
