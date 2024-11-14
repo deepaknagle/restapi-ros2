@@ -63,7 +63,7 @@ The REST API has the following endpoint:
 
     Run RN1:
 
-ros2 run rn1 rn1_node
+        ros2 run rn1 rn1_node
 
 ROS2 Node 2 (RN2):
 
