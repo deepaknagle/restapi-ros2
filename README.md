@@ -15,18 +15,6 @@ Project Overview
         Receives the ROS2 action from RN1.
         Prints a message acknowledging the receipt of the travel data.
 
-Project Structure
-
-project/
-├── Dockerfile            # Optional: Docker setup file
-├── Dockerfile.rn1        # Optional: Docker file for RN1
-├── Dockerfile.rn2        # Optional: Docker file for RN2
-├── main.py               # REST API code
-├── requirements.txt      # REST API dependencies
-├── rn1_node.py           # Code for ROS2 Node 1 (RN1)
-├── rn2_node.py           # Code for ROS2 Node 2 (RN2)
-└── README.md             # Project instructions
-
 Setup Instructions
 1. Install Dependencies
 
